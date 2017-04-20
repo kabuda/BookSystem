@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    font-family: sans-serif, Helvetica, "宋体", "微软雅黑";
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, b, u, i, dl, dt, dd, ol, ul, li, form, label, table, tbody, thead, tr, th, td, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*页面元素分辨率大于页面尺寸时隐藏*/
+ol, ul {
+    list-style: none;
+}
+
+label {
+    font-size: 12px;
+}
+
+title {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*以上为重置样式*/
+.topBar {
+    width: 100%;
+}
+
+.topBar img {
+    width: 100%;
+}
+
+/*以下为左右的侧边栏*/
+.active {
+    background-color: rgba(51, 133, 255, 0.42);
+}
+
+.active a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.leftBar {
+    width: 14%;
+    height: 900px;
+    background-color: #f5fafa;
+    padding-top: 10px;
+    float: left;
+}
+
+.leftBar h3 {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 15px;
+    line-height: 30px;
+    height: 30px;
+}
+
+.leftBar h3 a {
+    text-decoration: none;
+    color: #666;
+
+}
+
+.leftBar ul {
+    height: 90px;
+    width: 175px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.leftBar ul li {
+    font-size: 12px;
+    font-weight: 600;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    border-radius: 3px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.leftBar ul li a {
+    font-family: arial;
+    color: #333;
+    text-decoration: underline;
+}
+
+.rightBar {
+    width: 14%;
+    height: 900px;
+    background-color: #f5fafa;
+    float: right;
+}
+
+/*以下为表单项*/
+
+.centerBar {
+    margin: 0 auto;
+    width: 72%;
+    border: 1px;
+}
+
+.centerBar_title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.centerBar_title h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.filter {
+    position: relative;
+    top: 2px;
+}
+
+.centerBar .result_show {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.centerBar .other_control {
+    margin-top: 40px;
+}
+
+.centerBar .result_show tr {
+    height: 30px;
+    line-height: 30px;
+}
+
+.input_group {
+    width: 240px;
+    height: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.serial_number {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.serial_number .liushuihao {
+    font-size: 14px;
+}
+
+.centerBar .book_show {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: none;
+}
+
+.centerBar .book_show tr {
+    height: 30px;
+    line-height: 30px;
+}
+
+.book_show tr td {
+    border: solid 1px #000;
+}
+
+.btn-detail {
+    margin-left: 33%;
+    margin-top: 30px;
+}
+
+.download-module {
+    height: 100px;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+}
+
+.form_submit {
+    display: block;
+    margin-top: 40px;
+    margin-left: 45%;
+}
+
+.optionsRadios3 {
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.align {
+    text-align: center;
+}
+
+.confirm_signup {
+    width: 80%;
+    height: 160px;
+    margin: 10px auto;
+}
+
+.confirm_leftBar, .confirm_rightBar {
+    width: 50%;
+    height: 100%;
+    padding-top: 5px;
+    float: left;
+}
+
+.confirm_leftBar p, .confirm_rightBar p {
+    text-align: left;
+    text-indent: 2em;
+}
+
+.centerBar > .addition {
+    text-indent: 2em;
+    margin-top: 10px;
+}
+
+.centerBar > .addition_second {
+    text-indent: 4em;
+}
+
+#addition {
+    text-indent: 2em;
+    margin-top: 10px;
+}
+
+#addition_second {
+    text-indent: 4em;
+}
